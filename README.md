@@ -9,3 +9,4 @@ Business Data Analyst @ Diebold Nixdorf
 - big impact project 2
 
 ### Projects 
+ATM Fleet Optimization
