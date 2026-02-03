@@ -10,3 +10,4 @@ Business Data Analyst @ Diebold Nixdorf
 
 ### Projects 
 ATM Fleet Optimization
+Revenue Reconciliation
