@@ -1,0 +1,93 @@
+name: Sanjana Shetty
+headline: Data Analyst | Business Intelligence | Big Data | AI/LLM Learner
+contact:
+  email: sanjana.shetty698@gmail.com
+  phone: +1 303 483 9747
+  linkedin: https://www.linkedin.com
+summary:
+  - Data analyst with ~5 years of experience in SQL-driven analysis, sourcing and integrating new datasets, and partnering with product owners to support analytics and model development.
+  - Skilled at translating business needs into actionable data requirements, identifying the right data for models, and solving complex data issues.
+  - Proficient in SQL, Python, and Hadoop, with a strong track record of communicating insights clearly to technical and non-technical stakeholders.
+  - Continuously upskilling in AI/LLMs to keep analytics work aligned with the industry as it evolves.
+what_i_do:
+  - title: Requirements to Data Design
+    description: Elicit business needs, define data requirements, and select the right attributes for predictive and risk models.
+  - title: Large-Scale Analytics
+    description: Process multi-terabyte datasets with Hadoop/Spark and deliver reliable insights for decision-making.
+  - title: Automation and BI
+    description: Build ETL pipelines and dashboards that reduce manual work and improve data quality.
+featured_projects:
+  - title: ATM Fleet Optimization
+    description: Built ETL pipelines and Power BI dashboards to optimize ATM performance, cassettes, and transactions using geospatial and time-series views.
+    tools: Power BI, SQL, Python, SharePoint
+  - title: Forecasting and Revenue Reconciliation
+    description: Identified data discrepancies and improved forecasting inputs, contributing to ~$9M in strategic improvements.
+    tools: Oracle BI, Azure SQL, Alteryx
+  - title: Fraud Risk Analytics
+    description: Derived model features from large datasets using advanced SQL and big-data tooling to improve fraud detection accuracy.
+    tools: SQL, Hadoop, Spark, Azure
+skills:
+  - SQL (CTEs, Window Functions)
+  - Python (pandas, NumPy)
+  - Power BI (DAX)
+  - Tableau
+  - Alteryx
+  - Azure Data Factory
+  - Azure SQL
+  - Oracle BI
+  - Hadoop
+  - Spark
+  - Hive
+  - Salesforce
+  - Data Modeling
+  - ETL/ELT
+  - AI/LLM Literacy
+experience:
+  - company: Diebold Nixdorf
+    role: Service Business Data Analyst
+    dates: Mar 2024 – Present
+    summary: SQL-driven analysis across Oracle BI and Azure SQL to support enterprise forecasting and reporting.
+    bullets:
+      - Identified and sourced predictive model attributes, contributing to ~$9M in forecasting improvements.
+      - Resolved ~$2.8M in account discrepancies using SQL and Alteryx across major customer datasets.
+      - Processed multi-terabyte datasets with HDFS, Hive, and Spark; improved accessibility and workflow speed by 40%.
+      - Built ETL workflows in Azure Data Factory and Python, saving 24+ hours/week (~$180K annual savings).
+      - Delivered advisory dashboards (competitive analysis, branch KPIs), ATM fleet optimization, ACDE dashboards on STAR schema, and executive revenue views.
+  - company: Devoir Software Solutions
+    role: Data Analyst – Fraud Risk Management
+    dates: Aug 2023 – Jan 2024
+    summary: Advanced SQL analytics on large datasets to detect fraud patterns and derive model attributes.
+    bullets:
+      - Validated new data elements across systems to improve fraud detection accuracy.
+      - Built scalable ELT pipelines using Azure Data Factory and Python.
+      - Used Hive, HDFS, and Spark to process high-volume historical fraud datasets.
+  - company: Cleveland State University
+    role: Graduate Assistant – Data Analyst
+    dates: Dec 2021 – May 2023
+    summary: Automated reporting with Python/SQL, saving 40 hours/week and improving accuracy by 20%.
+    bullets:
+      - Extracted, analyzed, and prepared data for modeling student engagement metrics in Oracle databases.
+      - Partnered with program directors to translate analytical findings into actionable decisions.
+      - Troubleshot data quality issues and standardized reporting frameworks across departments.
+  - company: Amazon
+    role: Risk Data Analyst – Risk Management
+    dates: Oct 2020 – Aug 2021
+    summary: Analyzed transactional datasets to identify fraud trends and prevent ~$800K in losses.
+    bullets:
+      - Sourced and evaluated seller performance data for risk models.
+      - Built benchmarking and scoring models to prioritize high-risk seller segments.
+  - company: Electronics Corporation of India Pvt Ltd.
+    role: Intern (Software Analyst)
+    dates: May 2019 – Aug 2019
+    summary: Conducted SQL-based analysis and supported testing, troubleshooting, and data validation.
+    bullets:
+      - Collaborated with technical teams to communicate analytical findings.
+education:
+  - school: Cleveland State University
+    location: Cleveland, OH
+    degree: M.S. in Information Systems
+    dates: Aug 2021 – May 2023
+  - school: Aurora’s Technological and Research Institute
+    location: Hyderabad, India
+    degree: B.Tech in Electrical and Communications Engineering
+    dates: Aug 2016 – Dec 2020

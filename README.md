@@ -1,13 +1,12 @@
-# Business Intelligence
+# Portfolio Site
 
-### Education
-Masters in Information Systems
+This site is generated from `resume.yml`. Update that file and the portfolio will refresh automatically.
 
-### Work Experience
-Business Data Analyst @ Diebold Nixdorf
-- big impact project 1
-- big impact project 2
+Quick start
+- Edit `resume.yml`
+- Run `python3 scripts/generate_site.py`
+- Commit and push
 
-### Projects 
-ATM Fleet Optimization
+Automation
+- GitHub Actions regenerates `index.html` on push when `resume.yml` or templates change.
 Revenue Reconciliation

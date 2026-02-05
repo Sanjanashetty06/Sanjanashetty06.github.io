@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ name }} | {{ headline }}</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <div class="hero-media">
+          <img class="headshot" src="/assets/headshot.jpg" alt="Headshot of {{ name }}" />
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">{{ headline }}</p>
+          <h1>Hi, I’m {{ name }}.</h1>
+          <p class="lead">{{ summary[0] }}</p>
+          <div class="hero-actions">
+            <a class="btn" href="mailto:{{ contact.email }}">Email Me</a>
+            <a class="btn ghost" href="{{ contact.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+          <div class="stats">
+            <div>
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div>
+              <span class="stat-number">Multi-TB</span>
+              <span class="stat-label">Data Processed</span>
+            </div>
+            <div>
+              <span class="stat-number">24+</span>
+              <span class="stat-label">Hours Saved / Week</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Professional Summary</h2>
+        <div class="card">
+          <ul class="work-projects">
+            {% for line in summary %}
+            <li>
+              <span>{{ line }}</span>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>What I Do</h2>
+        <div class="grid">
+          {% for item in what_i_do %}
+          <div class="card">
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.description }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Featured Projects</h2>
+        <div class="grid">
+          {% for project in featured_projects %}
+          <div class="card">
+            <h3>{{ project.title }}</h3>
+            <p>{{ project.description }}</p>
+            <p class="meta">Tools: {{ project.tools }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Skills</h2>
+        <div class="chips">
+          {% for skill in skills %}
+          <span>{{ skill }}</span>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Experience</h2>
+        <div class="timeline">
+          {% for job in experience %}
+          <div class="timeline-item">
+            <div class="timeline-date">{{ job.dates }}</div>
+            <div class="timeline-content">
+              <h3>{{ job.role }} · {{ job.company }}</h3>
+              <p>{{ job.summary }}</p>
+              {% if job.bullets %}
+              <ul class="work-projects">
+                {% for bullet in job.bullets %}
+                <li>
+                  <span>{{ bullet }}</span>
+                </li>
+                {% endfor %}
+              </ul>
+              {% endif %}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Education</h2>
+        <div class="timeline">
+          {% for school in education %}
+          <div class="timeline-item">
+            <div class="timeline-date">{{ school.dates }}</div>
+            <div class="timeline-content">
+              <h3>{{ school.degree }}</h3>
+              <p>{{ school.school }} · {{ school.location }}</p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section class="section footer">
+        <h2>Let’s Connect</h2>
+        <p>{{ contact.email }} · {{ contact.phone }}</p>
+        <div class="hero-actions">
+          <a class="btn" href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+          <a class="btn ghost" href="{{ contact.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
